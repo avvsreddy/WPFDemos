@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
