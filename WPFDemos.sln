@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{72DBAD1B-038F-436C-B77D-84ED60A73E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{72DBAD1B-038F-436C-B77D-84ED60A73E6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndRef", "LabsAndRef\LabsAndRef.csproj", "{C8E840AC-FB46-4E30-9BFC-F6D9139BC94C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo", "DelegatesDemo\DelegatesDemo.csproj", "{B03009A2-1243-44AB-AD54-D9655CF679D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B03009A2-1243-44AB-AD54-D9655CF679D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03009A2-1243-44AB-AD54-D9655CF679D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03009A2-1243-44AB-AD54-D9655CF679D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03009A2-1243-44AB-AD54-D9655CF679D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
