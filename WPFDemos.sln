@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo", "DelegatesD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLayoutsDemo", "WpfLayoutsDemo\WpfLayoutsDemo.csproj", "{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

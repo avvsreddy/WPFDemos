@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfLayoutsDemo.CanvasLayout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLayoutsDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <InkCanvas Name="mycanvas"  Height="294" HorizontalAlignment="Center" VerticalAlignment="Top" Width="716" RenderTransformOrigin="0.598,0.573" Canvas.Left="33" Canvas.Top="106"></InkCanvas>
+
+        <Button Click="Button_Click">Clear</Button>
+    </Canvas>
+
+</Window>

@@ -15,7 +15,7 @@
             MyClass a = new MyClass();
             //a.RunDelete();
             // invoke
-            a.MyDelegate.Invoke("Hello calling from program class");
+            //a.MyDelegate.Invoke("Hello calling from program class");
         }
 
 

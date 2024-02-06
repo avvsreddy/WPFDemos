@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfLayoutsDemo.UniformGridWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLayoutsDemo"
+        mc:Ignorable="d"
+        Title="UniformGridWindow" Height="450" Width="800">
+    <UniformGrid Rows="3" Columns="4">
+        <Button Margin="4">one</Button>
+        <Button Margin="4">two</Button>
+        <Button Margin="4">Three</Button>
+        <Button Margin="4">Four</Button>
+        <Button Margin="4">one</Button>
+        <Button Margin="4">two</Button>
+        <Button Margin="4">Three</Button>
+        <Button Margin="4">Four</Button>
+        <Button Margin="4">one</Button>
+        <Button Margin="4">two</Button>
+        <Button Margin="4">Three</Button>
+        <Button Margin="4">Four</Button>
+    </UniformGrid>
+</Window>
