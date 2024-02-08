@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo2", "Delegates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLayoutsDemo", "WpfLayoutsDemo\WpfLayoutsDemo.csproj", "{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadPlus", "NotepadPlus\NotepadPlus.csproj", "{93EF6164-12FB-4A46-9B82-32BA79088662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcessWpfApp", "ResourcessWpfApp\ResourcessWpfApp.csproj", "{BFC331AF-FD7E-4260-8739-14D77E943349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EF6164-12FB-4A46-9B82-32BA79088662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EF6164-12FB-4A46-9B82-32BA79088662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EF6164-12FB-4A46-9B82-32BA79088662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EF6164-12FB-4A46-9B82-32BA79088662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC331AF-FD7E-4260-8739-14D77E943349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC331AF-FD7E-4260-8739-14D77E943349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC331AF-FD7E-4260-8739-14D77E943349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC331AF-FD7E-4260-8739-14D77E943349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
