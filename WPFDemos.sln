@@ -19,6 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadPlus", "NotepadPlus\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourcessWpfApp", "ResourcessWpfApp\ResourcessWpfApp.csproj", "{BFC331AF-FD7E-4260-8739-14D77E943349}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact Management Application", "Contact Management Application", "{AC54C6B1-B679-4550-BCEC-6573AEF6D01A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{A682B27B-41FE-4DC3-8999-C133785B3E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{FA9A6F22-3EC8-4D16-9026-922F72E1AA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.DataAccess", "ContactManagement.DataAccess\ContactManagement.DataAccess.csproj", "{0995D9A1-D702-4A91-86A2-018899C50756}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.ConsoleApp", "ContactManagement.ConsoleApp\ContactManagement.ConsoleApp.csproj", "{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,9 +67,23 @@ Global
 		{BFC331AF-FD7E-4260-8739-14D77E943349}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC331AF-FD7E-4260-8739-14D77E943349}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC331AF-FD7E-4260-8739-14D77E943349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0995D9A1-D702-4A91-86A2-018899C50756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0995D9A1-D702-4A91-86A2-018899C50756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0995D9A1-D702-4A91-86A2-018899C50756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0995D9A1-D702-4A91-86A2-018899C50756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A682B27B-41FE-4DC3-8999-C133785B3E41} = {AC54C6B1-B679-4550-BCEC-6573AEF6D01A}
+		{FA9A6F22-3EC8-4D16-9026-922F72E1AA6B} = {AC54C6B1-B679-4550-BCEC-6573AEF6D01A}
+		{0995D9A1-D702-4A91-86A2-018899C50756} = {FA9A6F22-3EC8-4D16-9026-922F72E1AA6B}
+		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6} = {A682B27B-41FE-4DC3-8999-C133785B3E41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F2E66B0-D7B2-47A4-85AC-7663D0F92FA6}
