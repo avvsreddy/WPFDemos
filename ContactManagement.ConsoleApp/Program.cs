@@ -7,11 +7,11 @@ namespace ContactManagement.ConsoleApp
         static void Main(string[] args)
         {
             //// add new contact
-            //Contact c = new Contact { Name = "Ravi", Email = "ravi@mail.com", Location = "Bangalore", Mobile = "234234234" };
+            Contact c = new Contact { Name = "Ravi Kumar EF", Email = "ravi@mail.com", Location = "Bangalore", Mobile = "234234234" };
 
-            //ContactsRepository repo = new ContactsRepository();
-            //repo.Add(c);
-            //Console.WriteLine("Contact saved....");
+            ContactsEFRepository repo = new ContactsEFRepository();
+            repo.Add(c);
+            Console.WriteLine("Contact saved....");
 
             // delete
             //ContactsRepository repo = new ContactsRepository();
@@ -20,7 +20,7 @@ namespace ContactManagement.ConsoleApp
 
             // edit
 
-            ContactsRepository repo = new ContactsRepository();
+            //ContactsRepository repo = new ContactsRepository();
             // get record to edit
             //var contactToEdit = repo.GetContact(2);
             //contactToEdit.Mobile = "123123123123";
@@ -29,11 +29,11 @@ namespace ContactManagement.ConsoleApp
 
 
             // get all contacts and display
-            var allContacts = repo.GetAllContacts();
-            foreach (var contact in allContacts)
-            {
-                Console.WriteLine($"{contact.ContactID}\t{contact.Name}\t{contact.Email}\t{contact.Mobile}\t{contact.Location}");
-            }
+            //var allContacts = repo.GetAllContacts();
+            //foreach (var contact in allContacts)
+            //{
+            //    Console.WriteLine($"{contact.ContactID}\t{contact.Name}\t{contact.Email}\t{contact.Mobile}\t{contact.Location}");
+            //}
         }
     }
 }
