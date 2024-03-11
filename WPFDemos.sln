@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabsAndRef", "LabsAndRef\La
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCalculator", "WpfCalculator\WpfCalculator.csproj", "{71BCD021-B6AD-49B1-A281-CC63FA5F41C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo", "DelegatesDemo\DelegatesDemo.csproj", "{B03009A2-1243-44AB-AD54-D9655CF679D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo", "DelegatesDemo\DelegatesDemo.csproj", "{B03009A2-1243-44AB-AD54-D9655CF679D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesDemo2", "DelegatesDemo2\DelegatesDemo2.csproj", "{29333DEA-736B-4EB0-A61F-CBA4D5BAF105}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLayoutsDemo", "WpfLayoutsDemo\WpfLayoutsDemo.csproj", "{4396A8D4-1A1C-43B5-9C78-3F449A8CA5FC}"
 EndProject
@@ -25,9 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Prese
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{FA9A6F22-3EC8-4D16-9026-922F72E1AA6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.DataAccess", "ContactManagement.DataAccess\ContactManagement.DataAccess.csproj", "{0995D9A1-D702-4A91-86A2-018899C50756}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactManagement.DataAccess", "ContactManagement.DataAccess\ContactManagement.DataAccess.csproj", "{0995D9A1-D702-4A91-86A2-018899C50756}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManagement.ConsoleApp", "ContactManagement.ConsoleApp\ContactManagement.ConsoleApp.csproj", "{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactManagement.ConsoleApp", "ContactManagement.ConsoleApp\ContactManagement.ConsoleApp.csproj", "{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDataBindingDemo1", "WPFDataBindingDemo1\WPFDataBindingDemo1.csproj", "{86735AD9-6757-4450-9196-7A1A632B7F5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70DAE4B-1339-4A8F-91C5-AD9F4ED71FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86735AD9-6757-4450-9196-7A1A632B7F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86735AD9-6757-4450-9196-7A1A632B7F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86735AD9-6757-4450-9196-7A1A632B7F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86735AD9-6757-4450-9196-7A1A632B7F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
